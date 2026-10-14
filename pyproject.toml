@@ -1,0 +1,32 @@
+[project]
+name = "bubbles"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "OlverArceL01", email = "olverarcedev@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ultralytics>=8.4.174"
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "seaborn>=0.13.2",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+]
+
+[project.scripts]
+bubbles = "bubbles:main"
+train = "bubbles.train:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

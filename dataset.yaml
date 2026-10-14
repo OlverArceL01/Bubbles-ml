@@ -1,0 +1,11 @@
+path: ../bubbles/data/processed
+
+train: images/train
+val: images/valid
+test: images/test
+
+masks_dir: masks
+
+names:
+  0: background
+  1: bubble

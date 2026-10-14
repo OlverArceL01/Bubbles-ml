@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+/runs/*
+!/runs/.gitkeep
+/metrics/*
+!/metrics/.gitkeep
+
+yolo26n-sem.pt
+yolo26s-sem.pt
