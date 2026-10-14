@@ -19,11 +19,12 @@ def main():
     model = YOLO(models[args.model])
     results = model.train(
         data="dataset.yaml",
-        epochs=100,
+        epochs=5,
         imgsz=640,
         batch=4,
         patience=15,
         seed=42,
+        fraction=0.1,
         name=f"experiment_cloud_{args.model}"
     )
 if __name__ == "__main__":
