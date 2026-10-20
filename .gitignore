@@ -13,7 +13,8 @@ wheels/
 !/data/raw/.gitkeep
 /data/processed/*
 !/data/processed/.gitkeep
-
+/images
+!/images/.gitkeep
 /runs/*
 !/runs/.gitkeep
 /metrics/*
@@ -21,3 +22,4 @@ wheels/
 
 yolo26n-sem.pt
 yolo26s-sem.pt
+
