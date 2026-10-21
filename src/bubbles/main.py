@@ -24,7 +24,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "http://localhost:4201",
+    # "http://localhost:4201",
     "https://bubbles.olver.site",
     ],
     allow_credentials=True,
