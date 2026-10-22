@@ -47,7 +47,7 @@ def root():
 )
 def health():
     check_files = [
-        "runs/semantic/experiment_cloud_nano/weights/best.pt"
+        "models/best.pt"
     ]
     files_ok = all(Path(file).exists() for file in check_files)
     return {
