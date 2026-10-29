@@ -26,6 +26,7 @@ app.add_middleware(
     allow_origins=[
     # "http://localhost:4201",
     "https://bubbles.olver.site",
+    "https://bubbles.olver.cl",
     ],
     allow_credentials=True,
     allow_methods=["*"],
